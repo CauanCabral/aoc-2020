@@ -51,7 +51,7 @@ func parseLine(line string, doc map[string]string) map[string]string {
 }
 
 func main() {
-    f, err := os.Open("./input")
+    f, err := os.Open("../input")
     if err != nil {
         log.Fatal(err)
     }
